@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "sa-pipes-and-filters"
+version = "0.0.0"
+description = ""
+authors = ["Artem Bulgakov <ArtemSBulgakov@ya.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+opencv-python = "^4.10.0.84"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
